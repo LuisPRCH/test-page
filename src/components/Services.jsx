@@ -1,12 +1,7 @@
-import { motion } from 'framer-motion'
-
 const Services = () => {
 	return (
 		<article className='px-[100px] py-[100px] gap-12 flex justify-center items-center flex-wrap'>
-			<motion.section
-				animate={{ opacity: [0, 1], x: [-50, 0] }}
-				className='opacity-0 flex w-[600px] gap-6'
-			>
+			<section className='opacity-0 flex w-[600px] gap-6'>
 				<div>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
@@ -27,12 +22,8 @@ const Services = () => {
 						Eveniet.
 					</p>
 				</div>
-			</motion.section>
-			<motion.section
-				animate={{ opacity: [0, 1], x: [-50, 0] }}
-				transition={{ delay: 0.3 }}
-				className='opacity-0 flex w-[600px] gap-6'
-			>
+			</section>
+			<section className='opacity-0 flex w-[600px] gap-6'>
 				<div>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
@@ -53,12 +44,8 @@ const Services = () => {
 						Eveniet.
 					</p>
 				</div>
-			</motion.section>
-			<motion.section
-				animate={{ opacity: [0, 1], x: [-50, 0] }}
-				transition={{ delay: 0.6 }}
-				className=' opacity-0 flex w-[600px] gap-6'
-			>
+			</section>
+			<section className=' opacity-0 flex w-[600px] gap-6'>
 				<div>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
@@ -79,12 +66,8 @@ const Services = () => {
 						Eveniet.
 					</p>
 				</div>
-			</motion.section>
-			<motion.section
-				animate={{ opacity: [0, 1], x: [-50, 0] }}
-				transition={{ delay: 0.9 }}
-				className='opacity-0 flex w-[600px] gap-6'
-			>
+			</section>
+			<section className='opacity-0 flex w-[600px] gap-6'>
 				<div>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
@@ -105,7 +88,7 @@ const Services = () => {
 						Eveniet.
 					</p>
 				</div>
-			</motion.section>
+			</section>
 		</article>
 	)
 }
