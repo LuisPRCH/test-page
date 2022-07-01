@@ -1,7 +1,7 @@
 const Services = () => {
 	return (
 		<article className='px-[100px] py-[100px] gap-12 flex justify-center items-center flex-wrap'>
-			<section className='opacity-0 flex w-[600px] gap-6'>
+			<section className=' flex w-[600px] gap-6'>
 				<div>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
@@ -23,7 +23,7 @@ const Services = () => {
 					</p>
 				</div>
 			</section>
-			<section className='opacity-0 flex w-[600px] gap-6'>
+			<section className=' flex w-[600px] gap-6'>
 				<div>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
@@ -45,7 +45,7 @@ const Services = () => {
 					</p>
 				</div>
 			</section>
-			<section className=' opacity-0 flex w-[600px] gap-6'>
+			<section className='  flex w-[600px] gap-6'>
 				<div>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
@@ -67,7 +67,7 @@ const Services = () => {
 					</p>
 				</div>
 			</section>
-			<section className='opacity-0 flex w-[600px] gap-6'>
+			<section className=' flex w-[600px] gap-6'>
 				<div>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
