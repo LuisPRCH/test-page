@@ -1,9 +1,13 @@
 import Nav from './Nav'
 import { motion } from 'framer-motion'
+import imgHeader from '../../public/3181111-02.jpg'
 
 const Header = () => {
+
+	console.log(imgHeader)
+
 	return (
-		<header className='font-Ubuntu w-full h-screen bg-[url("./public/3181111-02.jpg")] bg-cover bg-center flex flex-col justify-center items-center'>
+		<header className={`font-Ubuntu w-full h-screen bg-[url(".${imgHeader}")] bg-cover bg-center flex flex-col justify-center items-center`}>
 			<Nav />
 			<section className='w-[500px] flex flex-col gap-8 mt-16'>
 				<motion.h2
