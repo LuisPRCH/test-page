@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import logo from '../../public/img-logo.png'
+import logo from '../public/img-logo.png'
 
 const Nav = () => {
 	return (
